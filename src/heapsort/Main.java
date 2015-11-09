@@ -74,7 +74,7 @@ public class Main extends JFrame {
 			}
 		});
 
-		JButton btnEdit = new JButton("Edit");
+		JButton btnEdit = new JButton("Update");
 		btnEdit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				EmailItem item = new EmailItem(true);
